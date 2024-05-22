@@ -14,5 +14,6 @@ require('lspconfig').tsserver.setup({
     '-v', root_dir .. ':' .. root_dir,
     'tikhoplav/typescript-language-server:4.3.3'
   },
+})
 ```
 
